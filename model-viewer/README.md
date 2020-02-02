@@ -1,6 +1,6 @@
 # おめシスARのようなもの（仮）
 
-おめシスARのようなものを（一部の）Androidでも楽しめます。
+おめシスARのようなものを（一部の？）Androidでも楽しめます。
 
 https://mashirowrist.github.io/OmesisAR/model-viewer/
 
@@ -15,14 +15,14 @@ https://mashirowrist.github.io/OmesisAR/model-viewer/
 Androidで読み込むために[公式の3Dモデル（*.usdz）](https://github.com/omegasisters/OmesisAR/tree/master/Models)をglTFに変換しています。
 
 1. Xcodeで*.usdzファイルを開く
-2. FileのExportでDigital Asset Exchange (DAE)を選択して、*.daeとして書き出し
+2. FileメニューのExportでDigital Asset Exchange (DAE)を選択して*.daeとして書き出し
 3. [COLLADA2GLTF](https://github.com/KhronosGroup/COLLADA2GLTF)で*.daeを*.gltfに変換
 
     ```sh
     COLLADA2GLTF-bin unchan_pink.dae unchan_pink.gltf
     ```
 
-実際に変換に使ったバージョンｓ
+実際に変換に使ったバージョンは次の通りです。
 
 - Xcode Version 11.3.1
 - COLLADA2GLTF v2.1.5
