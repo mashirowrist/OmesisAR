@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>その他のモデル | おめシスARのようなもの（仮）</title>
+<script src="https://unpkg.com/fullscreen-polyfill@1.0.2/dist/fullscreen.polyfill.js"></script>
+<script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer@0.8.1/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer@0.8.1/dist/model-viewer-legacy.js"></script>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>おめシスARのようなもの（仮）</h1>
+<p><a href="https://developers.google.com/ar/discover/supported-devices">ARCore supported devices</a>に記載のあるデバイスであれば、ARを撮影する画面に遷移できると思います。<a href="https://github.com/mashirowrist/OmesisAR/tree/master/model-viewer">そのほかの注意点もとい言い訳を読む。</a></p>
+<p><a href="./index.html">まぁまぁ見られるモデルに戻る。</a></p>
+
+<h2>おめシスの銀盾</h2>
+<p>いきなり18MB弱のモデルが読み込まれます。</p>
+<div class="model-viewer-wrapper">
+<model-viewer src="./Models/gintate.gltf" ar ar-scale="auto" camera-controls alt="おめシスの銀盾" background-color="#eee" ios-src="../Models/gintate.usdz" unstable-webxr class="model-viewer"></model-viewer>
+</div>
+
+<h2>メタルうんちゃん</h2>
+<p>マテリアル（？）が正しく変換できていません。</p>
+<div class="model-viewer-wrapper">
+<model-viewer src="./Models/unchan_silver.gltf" ar ar-scale="auto" camera-controls alt="メタルうんちゃん" background-color="#eee" ios-src="./Models/unchan_silver.usdz" unstable-webxr class="model-viewer"></model-viewer>
+</div>
+
+<h2>メタルうんちゃん(おめシスはいいぞver)</h2>
+<p>マテリアル（？）が正しく変換できていません。</p>
+<div class="model-viewer-wrapper">
+<model-viewer src="./Models/unchan_silver_text.gltf" ar ar-scale="auto" camera-controls alt="メタルうんちゃん(おめシスはいいぞver)" background-color="#eee" ios-src="../Models/unchan_silver_text.usdz" unstable-webxr class="model-viewer"></model-viewer>
+</div>
+
+<!-- おめシスはいいぞ -->
+</body>
+</html>
