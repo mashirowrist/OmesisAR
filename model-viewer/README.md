@@ -4,7 +4,7 @@
 
 https://mashirowrist.github.io/OmesisAR/model-viewer/
 
-[ARCore supported devices](https://developers.google.com/ar/discover/supported-devices)に記載のあるデバイスで上記のURLを開けばARを撮影する画面に遷移できると思います。
+[ARCore supported devices](https://developers.google.com/ar/discover/supported-devices)に記載のある機種（ここ2〜3年以内のPixelやGalaxy、Xperia、AQUOSなど）で上記のURLを開けばARを撮影する画面に遷移できると思います。
 
 実際に確認した端末は次の通りです。
 
