@@ -2,7 +2,7 @@
 
 おめシスARのようなものを（一部の）Androidでも楽しめます。
 
-https://mashirowrist.github.io/OmesisAR/model-viewer/index.html
+https://mashirowrist.github.io/OmesisAR/model-viewer/
 
 [ARCore supported devices](https://developers.google.com/ar/discover/supported-devices)に記載のあるデバイスで上記のURLを開けばARを撮影する画面に遷移できると思います。
 
